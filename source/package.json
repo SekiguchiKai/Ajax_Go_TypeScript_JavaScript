@@ -1,11 +1,11 @@
 {
-  "name": "tic_tac_toe",
+  "name": "ajax",
   "version": "1.0.0",
-  "description": "to play tictactoe",
-  "main": "./dist/index.js",
+  "description": "ajax",
+  "main": "./index.js",
   "scripts": {
-    "start": "open resources/index.html",
-    "build": "webpack"
+    "start": "",
+    "build": "tsc index.ts"
   },
   "author": "",
   "license": "MIT",
@@ -15,9 +15,7 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {},
-  "directories": {
-    "test": "test"
-  },
+  "directories": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript.git"
