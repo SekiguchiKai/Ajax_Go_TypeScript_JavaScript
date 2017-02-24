@@ -1,0 +1,31 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "to play tictactoe",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "open resources/index.html",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.6",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript/issues"
+  },
+  "homepage": "https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript#readme"
+}
