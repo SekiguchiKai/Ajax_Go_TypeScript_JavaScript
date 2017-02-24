@@ -37,13 +37,11 @@ func JsonHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json; charset=utf-8")
 
 	// WriteHeader(int) : ステータスコードと共にHTTPのレスポンスヘッダを送信する
-	w.WriteHeader(http.StatusCreated)
+	// http.StatusOKは200が設定されている
+	w.WriteHeader(http.StatusOK)
 
 	// Encoderは、出力ストリームにJSONオブジェクトを書き込む
 	// NewEncoder(w io.Writer) : wに書き込みを行い、新しいEncoderを返す
 	// Encode() : 引数のJSONエンコーディングをWriterに書き込む
 	json.NewEncoder(w).Encode(l)
-
-	//fmt.Fprintf(w, bl)
-
 }

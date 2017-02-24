@@ -26,7 +26,7 @@ e.addEventListener('click', () => {
     httpRequest.onreadystatechange = () => {
 
         // 通信が完了したならば
-        if (httpRequest.readyState === 4) {
+        if (httpRequest.readyState === 4 && httpRequest.status === 200) {
             // jsonをtextデータとして受け取る
             const jsonText = httpRequest.responseText
 
