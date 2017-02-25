@@ -16,7 +16,6 @@ e.addEventListener('click', function () {
     // この値がサーバとの通信状態によって変化する
     // readyStateプロパティの値が変化するたびにonreadystatechangeイベントが発生する
     // このonreadystatechangeイベントが発生したら、readyStateプロパティをチェックすれば、現在の通信状態を知ることができる
-    console.log(httpRequest.readyState);
     // XMLHttpRequestオブジェクト(HTTPリクエスト)のonreadystatechangeイベントが発生したら、=で与えた関数が発動する
     httpRequest.onreadystatechange = function () {
         // 通信が完了したならば

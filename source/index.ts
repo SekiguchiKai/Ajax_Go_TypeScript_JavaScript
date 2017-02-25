@@ -50,5 +50,3 @@ e.addEventListener('click', () => {
     window.alert('非同期');
 
 })
-
-

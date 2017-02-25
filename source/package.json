@@ -10,20 +10,18 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "ts-loader": "^2.0.0",
-    "typescript": "^2.1.6",
-    "webpack": "^2.2.1"
+    "typescript": "^2.1.6"
   },
   "dependencies": {},
   "directories": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript.git"
+    "url": "github.など"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript/issues"
+    "url": "github.など"
   },
-  "homepage": "https://github.com/SekiguchiKai/Ajax_Go_TypeScript_JavaScript#readme"
+  "homepage": "github.など"
 }
